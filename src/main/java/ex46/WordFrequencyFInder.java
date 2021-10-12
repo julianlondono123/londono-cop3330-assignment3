@@ -6,7 +6,7 @@ import java.util.*;
 
 public class WordFrequencyFInder {
     public static void main(String args[]) throws FileNotFoundException {
-        File file = new File("C:/Users/j/Desktop/exercise46_input.txt");
+        File file = new File("exercise46_input.txt");
         Map<String, Integer> map = read_file(file);
         ArrayList<String> words_sorted = build_output(map);
         Collections.reverse(words_sorted);
