@@ -1,0 +1,86 @@
+Exercise 41
+
+While (File still has a next line) {
+	
+	Load name into list
+}
+
+Sort List of Names()
+Print List of Names()
+
+Exercise 42
+
+Array Names = 2 dimesional array with 1 row and 3 columns
+
+While (File still has next line) {
+
+	Save name in my Array split by commas
+}
+
+
+Print_Array()
+
+Exercise 43
+
+Prompt user for input of:(Name, Authour, Options to create directroies)
+
+if (User input was "Y" to entries) {
+	Create directories
+}
+
+create_website()
+
+Exercise 44
+
+Read File
+
+for (each column in file) {
+	Save in JSON format
+}
+
+Prompt user for input of product name
+
+if (JSON directory contains product name) {
+	print product name, price, and quantity
+}
+
+else {
+
+Print "Could not find"
+
+}
+
+ex 45
+
+
+while (file has next line) {
+	replace "utilize" with "use"
+}
+
+print_output_file()
+
+ex 46
+
+Create Map of String to Integer
+
+while (File has next line) {
+	words_list = split line based on the presence of space
+	for ( each word in the list) {
+		if (word is in map) {
+			Increase int value by one
+			}
+		else {
+			add new word to map and make it's value 1
+		}
+	}
+}
+
+Sort_map()
+
+for (each word in map) {
+	print word and "*" * map value
+}
+
+
+
+
