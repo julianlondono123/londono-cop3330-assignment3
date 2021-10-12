@@ -47,7 +47,7 @@ public class Product_Search {
     public static JSONArray read_json () {
         JSONParser parser = new JSONParser();
         try {
-            Object obj = parser.parse(new FileReader("C:/Users/j/Desktop/exercise44_input.json"));
+            Object obj = parser.parse(new FileReader("exercise44_input.json"));
             JSONObject jsonObject = (JSONObject)obj;
             JSONArray subjects = (JSONArray)jsonObject.get("products");
             return subjects;
