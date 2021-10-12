@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFinder{
+  file : File
+  output_name : String
+  replace_words()
+}
+
+@enduml

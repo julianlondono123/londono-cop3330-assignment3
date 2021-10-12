@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFrequencyFinder{
+  file : File
+  map : Map<String, Integer>
+  words_sorted : ArrayList<String>
+  read_file()
+  build_output()
+  print_output()
+}
+@enduml

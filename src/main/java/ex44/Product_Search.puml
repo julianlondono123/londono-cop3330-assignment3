@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Parser{
+  input : String
+  subjects : JSONArray
+  check_inventory()
+  read_json()
+}
+
+@enduml
