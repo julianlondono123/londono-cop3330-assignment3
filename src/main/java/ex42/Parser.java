@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class Parser {
     public static void main( String[] args ) throws IOException {
-        File file = new File("C:/Users/j/Desktop/exercise42_input.txt");
+        File file = new File("exercise42_input.txt");
         ArrayList<ArrayList<String>> names = read_File(file);
         print_table(names);
     }
