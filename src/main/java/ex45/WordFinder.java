@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class WordFinder {
     public static void main (String args[]) throws IOException {
-        File file = new File("C:/Users/j/Desktop/exercise45_input.txt");
+        File file = new File("exercise45_input.txt");
         Scanner scan = new Scanner(System.in);
         Scanner sc = new Scanner(file);
         System.out.println("What would you like your output file to be named");
