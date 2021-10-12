@@ -11,7 +11,7 @@ import java.util.*;
 public class NameSorter
 {
     public static void main( String[] args ) throws IOException {
-        File file = new File("C:/Users/j/Desktop/exercise41_input.txt");
+        File file = new File("exercise41_input.txt");
         FileWriter output = new FileWriter("exercise41_output.txt");
         ArrayList<String> names = read_File(file);
         Collections.sort(names);
